@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "UpdatingStringMorph",
+	"category" : "Interaction-Widgets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"menuTarget",
+		"menuSelector",
+		"menuArguments"
+	],
+	"name" : "UpdatingMenuStringMorph",
+	"type" : "normal"
+}

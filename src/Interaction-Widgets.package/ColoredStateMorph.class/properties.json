@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BorderedMorph",
+	"category" : "Interaction-Widgets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"colors",
+		"currentState",
+		"eventHandlers"
+	],
+	"name" : "ColoredStateMorph",
+	"type" : "normal"
+}
