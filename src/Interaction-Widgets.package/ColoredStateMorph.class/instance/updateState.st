@@ -1,9 +1,8 @@
 event handling
-update: aParameter 
+updateState
 	"I just changed my state -- update my appearance and event  
 	handling to match."
 	| eventHandler |
-	aParameter = #currentState ifTrue: [
 	self
 		color: (colors
 				at: self currentState
@@ -12,5 +11,4 @@ update: aParameter
 				at: self currentState
 				ifAbsent: [].
 	eventHandler
-		ifNotNil: [self possiblySuspendedEventHandler: eventHandler]].
-	super update: aParameter
+		ifNotNil: [self possiblySuspendedEventHandler: eventHandler].
