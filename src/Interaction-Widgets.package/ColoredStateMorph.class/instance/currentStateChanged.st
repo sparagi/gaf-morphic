@@ -1,5 +1,5 @@
 event handling
-updateState
+currentStateChanged
 	"I just changed my state -- update my appearance and event  
 	handling to match."
 	| eventHandler |
@@ -11,4 +11,4 @@ updateState
 				at: self currentState
 				ifAbsent: [].
 	eventHandler
-		ifNotNil: [self possiblySuspendedEventHandler: eventHandler].
+		ifNotNil: [self possiblySuspendedEventHandler: eventHandler]
