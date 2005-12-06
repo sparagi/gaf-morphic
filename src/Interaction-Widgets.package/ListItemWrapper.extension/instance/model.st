@@ -1,3 +1,4 @@
 *Interaction-Widgets
 model
-	^nil
+	"Answer my model."
+	^model
