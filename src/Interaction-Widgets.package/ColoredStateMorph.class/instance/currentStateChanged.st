@@ -1,14 +1,15 @@
 event handling
 currentStateChanged
-	"I just changed my state -- update my appearance and event  
+	"I just changed my state -- update my appearance and event 
 	handling to match."
 	| eventHandler |
+	currentState := self currentState.
 	self
 		color: (colors
-				at: self currentState
+				at: currentState
 				ifAbsent: [self defaultColor]).
 	eventHandler := eventHandlers
-				at: self currentState
+				at: currentState
 				ifAbsent: [].
 	eventHandler
 		ifNotNil: [self possiblySuspendedEventHandler: eventHandler]
