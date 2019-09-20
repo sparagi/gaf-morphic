@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "UpdatingStringMorph",
+	"super" : "StringMorph",
 	"category" : "Interaction-Widgets",
 	"classinstvars" : [ ],
 	"pools" : [ ],
